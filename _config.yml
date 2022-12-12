@@ -1,0 +1,76 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Francesco Greco
+email: francesco.greco@uniba.it
+tagline: Francesco Greco | Official Website
+description: >- # this means to ignore newlines until "baseurl:"
+  Hello! I'm Francesco Greco and this is my personal web page.
+baseurl: "" # the subpath of your site, e.g. /blog
+author:
+  twitter: FrancescGreco_
+  picture: /assets/img/profile.jpg
+  name: Francesco Greco
+  url: https://thegreek97.github.io
+
+image: /assets/img/profile.jpg
+url: https://thegreek97.github.io # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: FrancescGreco_
+github_username: TheGreek97
+social:
+  name: Francesco Greco
+  links:
+    - https://github.com/TheGreek97
+    - https://www.linkedin.com/in/francesco-greco-403b9b194/
+    - https://twitter.com/FrancescGreco_
+    - https://scholar.google.com/citations?user=pRObzYsAAAAJ&hl
+    - https://www.researchgate.net/profile/Francesco_Greco21
+    - https://orcid.org/0000-0003-2730-7697
+
+google_site_verification:  google-site-verification=FS-j1y2w-GLMvtabDH4GBrhBQesrLkY7nGxS515aIHM
+logo: /assets/img/favicon.ico
+locale: en_US
+
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

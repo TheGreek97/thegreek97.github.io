@@ -29,24 +29,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hello! I'm Francesco Greco and this is my personal web page.
 baseurl: "" # the subpath of your site, e.g. /blog
 author:
+  name: Francesco Greco
   givenName: Francesco
   familyName: Greco
   gender: "https://schema.org/Male"
-  honorificPrefix: Mr.
+  honorificPrefix: "Mr."
   jobTitle: "Ph.D. Student"
   alumniOf:
-        type: "EducationalOrganization"
-        name: "University of Bari"
-        alternateName: "UniBa"
-        logo: "https://www.uniba.it/immagini/logo-uniba-a-colori"
-    knowsLanguage:
-        - type: "Language"
-          name: "Italian"
-          alternateName: "it"
-        - type: "Language"
-          name: "English"
-          alternateName: "en"
-  
+    type: "EducationalOrganization"
+    name: "University of Bari"
+    alternateName: "UniBa"
+    logo: "https://www.uniba.it/immagini/logo-uniba-a-colori"
+  knowsLanguage:
+    - type: "Language"
+      name: "Italian"
+      alternateName: "it"
+    - type: "Language"
+      name: "English"
+      alternateName: "en"
   twitter: FrancescGreco_
   picture: /assets/img/profile.jpg
   url: https://thegreek97.github.io

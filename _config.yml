@@ -17,17 +17,38 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+url: https://thegreek97.github.io/
+gems:
+  - jekyll-seo-tag
 
-title: Francesco Greco
+
+title: Francesco Greco's official webpage
 email: francesco.greco@uniba.it
 tagline: Francesco Greco | Official Website
 description: >- # this means to ignore newlines until "baseurl:"
   Hello! I'm Francesco Greco and this is my personal web page.
 baseurl: "" # the subpath of your site, e.g. /blog
 author:
+  name: Francesco Greco
+  givenName: Francesco
+  familyName: Greco
+  gender: "https://schema.org/Male"
+  honorificPrefix: "Mr."
+  jobTitle: "Ph.D. Student"
+  alumniOf:
+    type: "EducationalOrganization"
+    name: "University of Bari"
+    alternateName: "UniBa"
+    logo: "https://www.uniba.it/immagini/logo-uniba-a-colori"
+  knowsLanguage:
+    - type: "Language"
+      name: "Italian"
+      alternateName: "it"
+    - type: "Language"
+      name: "English"
+      alternateName: "en"
   twitter: FrancescGreco_
   picture: /assets/img/profile.jpg
-  name: Francesco Greco
   url: https://thegreek97.github.io
 
 image: /assets/img/profile.jpg
@@ -44,9 +65,9 @@ social:
     - https://www.researchgate.net/profile/Francesco_Greco21
     - https://orcid.org/0000-0003-2730-7697
 
-google_site_verification:  google-site-verification=FS-j1y2w-GLMvtabDH4GBrhBQesrLkY7nGxS515aIHM
+google_site_verification: CxH2ilYLX6xYvhTf-BH8_wPcWFgUyqWVEVIiPfX2PSs
 logo: /assets/img/favicon.ico
-locale: en_US
+locale: en
 
 
 # Build settings
